@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.container {
+  min-width: 1200px;
+  background-color: blue;
+  color: beige;
+}
+.navigation {
+  position: relative;
+  top: 25px;
+  left: 140px;
+  text-emphasis: none;
+  font-size: 36px;
+  font-family: 'MuseoModerno','jokerman', cursive; 
+  padding: 10px;
+  color: black;
+  text-shadow: 2px 5px 5px red,5px 7px 5px blue,-2px -6px 5px rgb(112, 11, 82),-4px 6px 5px green;
+ 
+}
+
+.container ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.container ul,
+li {
+  margin: 9px;
+  display: flex;
+  font-size: 25px;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: flex-end;
+  gap: 29px;
+  color: white;
+}
+
+.maincontainer {
+  height: 100vh;
+  background-color: blue;
+  background-image: url(images/hero_image.png);
+  position: relative;
+  background-size: 270vh 100vh;
+  background-repeat: no-repeat;
+}
+
+.text {
+  color: white;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  text-align: center;
+  position: relative;
+  top: 258px;
+  gap: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.iphone-ipad-section {
+  background-color: black;
+  color: white;
+  padding-top: 40px;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.iphone-ipad-section .music-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.btn {
+  background-color: rgb(63, 20, 82);
+  color: wheat;
+  padding: 10px;
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  /* transform: translateX(); */
+}
+.ipad-image {
+  position: relative;
+  top: 326px;
+  margin-top: -326px;
+}
+
+.music-container h4 {
+  /* display: flex; */
+  text-align: center;
+  padding: 40px;
+}
+
+.macbook-section {
+  display: flex;
+  margin-top: 357px;
+  justify-content: center;
+}
+
+.dance-section .dancecontainer {
+  height: 100vh;
+  background-image: url(images/video.png);
+  background-size: contain;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  /* align-items: center; */
+  text-align: center;
+  gap: 30px;
+  font-family: cursive;
+  font-weight: 300;
+}
+
+.gift-section {
+  display: flex;
+  justify-content: center;
+  margin: 100px 100px;
+  gap: 50px;
+}
+
+.giftcontent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.giftbtn {
+  background-color: blue;
+  color: white;
+  width: 100px;
+}
+
+.lower-footer {
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  place-content: center;
+  margin-top: 100px;
+}

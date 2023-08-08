@@ -1,0 +1,67 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.image1 {
+  min-height: 100%;
+  background-image: url(Images/image1.png);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.textbg {
+  margin: 0;
+  padding: 33px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 36%;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+  font-family: cursive;
+  color: black;
+}
+
+.text {
+  padding: 40px;
+  text-align: justify;
+  font-family: cursive;
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.image2 {
+  height: 100%;
+  background-image: url(Images/image2.png);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.s2text {
+  background-color: #666;
+  color: black;
+  padding: 50px;
+  text-align: center;
+  font-family: fangsong;
+  font-size: 18px;
+  border: 10px solid black;
+  border-radius: 187px;
+}

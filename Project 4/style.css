@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: rgb(41, 41, 201);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+}
+.image {
+  display: flex;
+  align-items: center;
+}
+.image img {
+  width: 81px;
+  padding: 0 50px;
+  position: relative;   
+  left: 241px;
+}
+nav ul {
+  height: 58px;
+  width: 300px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  left: 976px;
+  padding: 10px;
+  margin: 0 31px;
+}
+
+nav ul li {
+  list-style: none;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+nav ul li {
+  color: white;
+  transition: color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+nav ul li:hover {
+    
+  color: cyan;
+  box-shadow: inset 100px 0 0 0 black;
+}
+
+.container {
+  min-height: calc(100vh - 58px);
+}
+
+.serch {
+  display: flex;
+  align-items: center;
+}
+
+.serch input {
+  width: 464px;
+  height: 36px;
+  border-radius: 9px;
+  margin: 0 -187px;
+}
+
+.btn1 {
+  position: relative;
+  left: 200px;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: blue;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 99px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 6px;
+  height: 35px;
+}
+.btn2 {
+  position: relative;
+  left: 245px;
+  width: 82px;
+  height: 28px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  color: blue;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 4px;
+  transition: all 0.5s;
+  margin: 6px;
+  height: 35px;
+}
+
+.btn1:hover {
+  padding-right: 25px;
+}
+.btn1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.btn1 span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -25px;
+  transition: 0.5s;
+}
+.btn1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.btn2:hover {
+    padding-right: 25px;
+  }
+.btn2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.btn2 span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -25px;
+  transition: 0.5s;
+}
+.btn2:hover span:after {
+  opacity: 3;
+  right: 0;
+}
+
+.text-align {
+  height: 12vh;
+  background-color: rgb(41, 41, 201);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.slider{
+    margin: 6px 309px;
+    overflow: hidden;
+
+}
+.card{
+    max-width: 320vh;
+    margin: 22px;
+    overflow: hidden;
+    
+}
+.card1{
+    overflow: hidden;
+}
+h1{
+    margin: 30px;
+}
+hr{
+    margin-bottom: 19px;
+    position: relative;
+}
+.card-item{
+    margin: 0 45px;
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+p{
+    margin: 4px 51px;
+}
+
+.card-item:hover{
+    background-color: black;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 50px rgba(12, 2, 2, 0.7);
+    
+}

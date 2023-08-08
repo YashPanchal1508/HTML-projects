@@ -1,0 +1,19 @@
+@media screen and (max-width: 1740px) {
+  body {
+    background-color: red;
+  }
+  nav{
+    flex-direction: column; 
+    
+  }
+  .image{
+    justify-content: center;    
+  }
+  .serch input{
+    margin: 4px 94px;
+  }
+  nav ul{
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
